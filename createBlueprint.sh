@@ -8,3 +8,4 @@ fi
 wget https://raw.githubusercontent.com/steaks/blueprint-templates/main/helloworld-blueprint.tar.gz
 tar -xzf helloworld-blueprint.tar.gz
 mv helloworld $1
+rm helloworld-blueprint.tar.gz
