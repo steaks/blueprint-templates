@@ -5,6 +5,6 @@ if [[ $# -eq 0 ]] ; then
     exit 0
 fi
 
-wget https://steaks.github.io/blueprint/helloworld-blueprint.tar.gz
-tar -xvzf helloworld-blueprint.tar.gz
+wget https://raw.githubusercontent.com/steaks/blueprint-templates/main/helloworld-blueprint.tar.gz
+tar -xzf helloworld-blueprint.tar.gz
 mv helloworld $1
