@@ -15,8 +15,8 @@ if [[ $# -eq 0 ]] ; then
     exit 0
 fi
 
-if [ $t != "skeleton" ] && [ $t != "helloWorld" ] && [ $t != "userProfile" ] ; then
-    echo 'Invalid template. The template options are skeleton, helloWorld, userProfile.'
+if [ $t != "skeleton" ] && [ $t != "helloWorld" ] && [ $t != "userProfile" ] && [ $t != "rectangle" ] ; then
+    echo 'Invalid template. The template options are skeleton, helloWorld, userProfile, rectangle.'
     exit 0
 fi
 
